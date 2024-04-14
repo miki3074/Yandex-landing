@@ -1,0 +1,28 @@
+.transformation__stages-conteiner {
+    grid-area:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    gap:16px;
+    background-image:url(../../../images/fon.png);
+    object-fit:cover;
+    object-position:center;
+  }
+  @media screen and (max-width:650px) {
+    .transformation__stages-conteiner {
+    width:100%;
+    background-image:none;
+  }
+  }@media screen and (max-width:650px) {
+    .transformation__stages-conteiner {
+    width:100%;
+    background-image:none;
+  }
+  }.transformation__stages-conteiner:nth-child(3) {
+    grid-row:span 2;
+    /* Третий элемент будет занимать две строки */
+  }
+  .transformation__stages-conteiner:nth-child(7) {
+    grid-column:span 2;
+    /* Седьмой элемент будет занимать два столбца */
+  }

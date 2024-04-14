@@ -1,0 +1,20 @@
+.header__subtitle {
+    margin:0;
+    padding:0;
+    max-width:542px;
+    margin-bottom:40px;
+    color:rgb(49,49,49);
+    font-family:Golos Text;
+    font-size:18px;
+    font-weight:400;
+    line-height:130%;
+    letter-spacing:0px;
+    text-align:center;
+  }
+  @media screen and (max-width:590px) {
+    .header__subtitle {
+    max-width:94.5%;
+    margin-bottom:32px;
+    text-align:left;
+  }
+  }

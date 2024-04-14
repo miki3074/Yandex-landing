@@ -1,0 +1,53 @@
+.header__button {
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-weight:500;
+    line-height:130%;
+    letter-spacing:0px;
+    text-align:center;
+    margin-bottom:130px;
+    width:263px;
+    height:72px;
+    padding:20px;
+    border-radius:66px;
+    border:2px solid rgb(31,31,31);
+    background-color:none;
+  }
+  @media screen and (max-width:800px) {
+    .header__button {
+    margin-bottom:0;
+    width:335px;
+    height:47px;
+    justify-content:center;
+    align-items:center;
+    padding:0 20px 0 20px;
+    flex:none;
+  }
+  }.header__button_type_confirmation {
+    background:rgb(31,31,31);
+    color:rgb(255,255,255);
+    transition:background 0.5s ease;
+  }
+  .header__button_type_confirmation:hover {
+    cursor:pointer;
+    background:rgb(251,206,81);
+    color:rgb(31,31,31);
+  }
+  .header__button_type_detail {
+    border:2px solid rgb(31,31,31);
+    border-radius:66px;
+    background:none;
+    transition:background 0.5s ease;
+  }
+  @media screen and (max-width:800px) {
+    .header__button_type_detail {
+    margin-bottom:291px;
+    background:rgb(255,255,255);
+    opacity:0.9;
+  }
+  }.header__button_type_detail:hover {
+    cursor:pointer;
+    background:rgb(31,31,31);
+    color:rgb(255,255,255);
+  }

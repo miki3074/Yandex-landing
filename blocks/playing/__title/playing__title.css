@@ -1,0 +1,22 @@
+.playing__title {
+    margin:0;
+    padding:0;
+    font-family:Merriweather;
+    font-size:36px;
+    font-weight:400;
+    line-height:135%;
+    letter-spacing:0px;
+    text-align:left;
+    text-transform:uppercase;
+    color:rgb(49,49,49);
+  }
+  @media screen and (max-width:800px) {
+    .playing__title {
+    margin-left:20px;
+    margin-right:20px;
+    font-size:28px;
+    max-width:94.5%;
+  }
+  }.playing__title_type_important {
+    color:rgb(245,73,50);
+  }

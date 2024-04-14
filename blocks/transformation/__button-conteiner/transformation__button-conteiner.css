@@ -1,0 +1,16 @@
+.transformation__button-conteiner {
+    display:none;
+  }
+  @media screen and (max-width:650px) {
+    .transformation__button-conteiner {
+    display:flex;
+    margin:0;
+    padding:0;
+    margin-bottom:120px;
+    width:178px;
+    height:36px;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+  }
+  }

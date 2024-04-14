@@ -1,0 +1,14 @@
+.header__link {
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    text-decoration:none;
+    font-size:inherit;
+    font-weight:inherit;
+    line-height:inherit;
+    letter-spacing:normal;
+    text-align:inherit;
+    color:inherit;
+    background-color:transparent;
+  }

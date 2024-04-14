@@ -1,0 +1,26 @@
+.players__button-conteiner {
+    margin:0;
+    padding:0;
+    max-width:151px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+  }
+  @media screen and (max-width:650px) {
+    .players__button-conteiner {
+    max-width:129px;
+  }
+  }@media screen and (max-width:650px) {
+    .players__button-conteiner_type_desktop {
+    display:none;
+  }
+  }.players__button-conteiner_type_mobile {
+    display:none;
+  }
+  @media screen and (max-width:650px) {
+    .players__button-conteiner_type_mobile {
+    display:flex;
+    margin-bottom:100px;
+  }
+  }

@@ -1,0 +1,19 @@
+.transformation__image {
+    margin:0;
+    padding:0;
+    object-fit:contain;
+    object-position:center;
+    margin-left:-50px;
+    margin-top:-100px;
+    margin-right:-50px;
+    width:374.8px;
+    transform:rotate(-2.31deg);
+  }
+
+
+  @media screen and (max-width:930px) {
+    .transformation__image {
+      max-width:30%;
+      margin-left:-120px;
+  }
+  }

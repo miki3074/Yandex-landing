@@ -1,0 +1,19 @@
+.promo {
+    margin:0;
+    padding:0;
+    width:2335px;
+    list-style-type:none;
+    display:flex;
+    padding:18px 12px;
+    background:rgb(245,73,50);
+    animation:animate 20s linear infinite;
+  }
+  @media screen and (max-width:800px) {
+    .promo {
+    height:18px;
+    padding:10px;
+  }
+  }
+  #carousel2 {
+    animation-delay:0ms;
+  }

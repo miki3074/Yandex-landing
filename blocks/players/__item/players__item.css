@@ -1,0 +1,17 @@
+.players__item {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    margin-bottom:140px;
+    width: 28,84%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+  }
+  @media screen and (max-width:650px) {
+    .players__item {
+    width:100%;
+    margin-bottom:40px;
+  }
+  }

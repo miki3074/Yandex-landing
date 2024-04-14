@@ -1,0 +1,14 @@
+.transformation__stages-conteiner-mobile {
+    margin:0;
+    padding:0;
+    padding-top:54px;
+    background-image:url(../../../images/fon.png);
+    min-width:95.4%;
+    max-width:95.4%;
+    object-fit:cover;
+    object-position:center;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start;
+  }

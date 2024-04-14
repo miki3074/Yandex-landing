@@ -1,0 +1,15 @@
+.transformation__image-mobile {
+    display:none;
+  }
+  @media screen and (max-width:650px) {
+    .transformation__image-mobile {
+    display:block;
+    width:84.53%;
+    object-fit:cover;
+    object-position:center;
+    transform:rotate(-8.73deg);
+    margin-bottom:-30px;
+    margin-left:-10px;
+    z-index:2;
+  }
+  }

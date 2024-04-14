@@ -1,0 +1,36 @@
+.players__button {
+    margin:0;
+    padding:0;
+    background:none;
+    border:none;
+    width:44px;
+    height:44px;
+    background-image:url(../../../images/buttonRight.svg);
+  }
+  @media screen and (max-width:650px) {
+    .players__button {
+    width:36px;
+    height:36px;
+    background-position:center;
+    background-size:contain;
+  }
+  }.players__button_type_left {
+    margin-right:14px;
+    background-image:url(../../../images/buttonRight.svg);
+    transform:rotate(180deg);
+  }
+  .players__button_type_left:hover {
+    cursor:pointer;
+    background-image:url(../../../images/buttonRightEllow.svg);
+  }
+  .players__button_type_right {
+    cursor:pointer;
+    margin-left:14px;
+    background-image:url(../../../images/buttonRight.svg);
+  }
+  .players__button_type_right:hover {
+    background-image:url(../../../images/buttonRightEllow.svg);
+  }
+  .players__button_type_disabled {
+    background-image:url(../../../images/buttonRightDis.svg);
+  }

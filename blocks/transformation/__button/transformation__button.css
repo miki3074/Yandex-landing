@@ -1,0 +1,32 @@
+.transformation__button {
+    margin:0;
+    padding:0;
+    background:none;
+    border:none;
+    width:36px;
+    height:36px;
+    background-image:url(../../../images/buttonRight.svg);
+    background-position:center;
+    background-size:contain;
+  }
+  .transformation__button_type_left {
+    margin-right:14px;
+    background-image:url(../../../images/buttonRight.svg);
+    transform:rotate(180deg);
+  }
+  .transformation__button_type_left:hover {
+    cursor:pointer;
+    background-image:url(../../../images/buttonRightEllow.svg);
+  }
+  .transformation__button_type_right {
+    cursor:pointer;
+    margin-left:14px;
+    background-image:url(../../../images/buttonRight.svg);
+  }
+  .transformation__button_type_right:hover {
+    background-image:url(../../../images/buttonRightEllow.svg);
+  }
+  .transformation__button_type_disabled {
+    background-image:url(../../../images/buttonRightDis.svg);
+    cursor: default;
+  }

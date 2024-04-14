@@ -1,0 +1,15 @@
+.lecture-text-conteiner {
+    margin:0;
+    padding:0;
+    margin-right:72px;
+    max-width:764px;
+  }
+  @media screen and (max-width:800px) {
+    .lecture-text-conteiner {
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+  }
+  }

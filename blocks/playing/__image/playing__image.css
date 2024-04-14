@@ -1,0 +1,15 @@
+.playing__image {
+    margin-left:45px;
+    max-width:609px;
+    object-fit: contain;
+    object-position: center;
+  }
+  @media screen and (max-width:800px) {
+    .playing__image {
+    margin:0;
+    margin-top:21px;
+    margin-bottom:19px;
+    object-fit: contain;
+    object-position: center;
+  }
+  }

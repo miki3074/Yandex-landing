@@ -1,0 +1,20 @@
+.playing__questions {
+    margin:0;
+    padding:0;
+    max-width:100%;
+    color:rgb(48,87,162);
+    font-family:Golos Text;
+    font-size:20px;
+    font-weight:400;
+    line-height:120%;
+    letter-spacing:0px;
+    text-align:left;
+  }
+  @media screen and (max-width:800px) {
+    .playing__questions {
+    margin-left:20px;
+    margin-right:20px;
+    width:95.5%;
+    font-size:18px;
+  }
+  }

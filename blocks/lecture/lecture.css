@@ -1,0 +1,14 @@
+.lecture {
+    margin:80px 72px 44px 72px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+  }
+  @media screen and (max-width:930px) {
+    .lecture {
+    margin:48px 20px 21px 20px;
+    flex-direction:column;
+
+  }
+  }

@@ -1,0 +1,23 @@
+.players__button-info {
+    margin:0;
+    padding:0;
+    width:113px;
+    height:35px;
+    border:none;
+    box-sizing:border-box;
+    border:1px solid rgb(48,87,162);
+    border-radius:62px;
+    color:rgb(48,87,162);
+    font-family:Golos Text;
+    font-size:16px;
+    font-weight:500;
+    line-height:120%;
+    letter-spacing:0px;
+    text-align:center;
+    transition:background 0.5s ease;
+  }
+  .players__button-info:hover {
+    cursor:pointer;
+    background:rgb(48,87,162);
+    color:rgb(255,255,255);
+  }

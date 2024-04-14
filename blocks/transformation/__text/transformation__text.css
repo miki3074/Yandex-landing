@@ -1,0 +1,11 @@
+.transformation__text {
+    margin-bottom:54px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+  }
+  @media screen and (max-width:650px) {
+    .transformation__text {
+    margin-bottom:0;
+  }
+  }

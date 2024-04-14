@@ -1,0 +1,9 @@
+.transformation__mark {
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:rgb(217,217,217);
+  }
+  .transformation__mark-active {
+    background:rgb(49,49,49);
+  }

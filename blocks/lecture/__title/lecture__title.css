@@ -1,0 +1,19 @@
+.lecture__title {
+    margin:0;
+    padding:0;
+    font-family:Merriweather;
+    font-size:36px;
+    font-weight:700;
+    line-height:135%;
+    letter-spacing:0px;
+    text-align:left;
+    text-transform:uppercase;
+    color:rgb(49,49,49);
+  }
+  @media screen and (max-width:800px) {
+    .lecture__title {
+    margin:0;
+    max-width:94.5%;
+    font-size:28px;
+  }
+  }

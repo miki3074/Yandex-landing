@@ -1,0 +1,36 @@
+.transformation__stages {
+    margin:0;
+    padding:0;
+    padding-left: 72px;
+    padding-right: 72px;
+    margin-bottom:200px;
+    width:89.45%;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+    gap:20px;
+  }
+  .transformation__stages_type_mobile {
+    display:none;
+  }
+  @media screen and (max-width:1100px) {
+    .transformation__stages_type_desktop {
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr);
+    align-self:center;
+    justify-content:center;
+  }
+  }@media screen and (max-width:650px) {
+    .transformation__stages_type_desktop {
+    display:none;
+  }
+  }@media screen and (max-width:650px) {
+    .transformation__stages_type_mobile {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    margin-bottom:30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  }

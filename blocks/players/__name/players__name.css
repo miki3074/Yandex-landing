@@ -1,0 +1,13 @@
+.players__name {
+    margin:0;
+    padding:0;
+    margin-bottom:6px;
+    max-width:320px;
+    color:rgb(49,49,49);
+    font-family:Golos Text;
+    font-size:24px;
+    font-weight:600;
+    line-height:120%;
+    letter-spacing:0px;
+    text-align:left;
+  }
